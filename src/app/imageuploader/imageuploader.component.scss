@@ -1,0 +1,49 @@
+.image-upload {
+  width: 424px;
+  min-height: 238px;
+  border: 1px dashed rgba(20, 28, 58, 0.2);
+  border-radius: 4px;
+  margin-bottom: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__input {
+    visibility: hidden;
+  }
+
+  &__label {
+    width: 424px;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+
+  &__preview {
+    min-width: 424px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  &_border {
+    border: none;
+  }
+
+  &__close {
+    width: 34px;
+    height: 34px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+  }
+
+  &__icon {
+    font-size: 20px;
+    color: rgba(#141C3A, 0.6);
+  }
+}
